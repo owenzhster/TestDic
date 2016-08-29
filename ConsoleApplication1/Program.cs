@@ -51,6 +51,7 @@ namespace WMTest
             var v = p;
             Console.WriteLine(o.GetType());
             Console.WriteLine(d.GetType());
+
             Console.WriteLine(v.GetType());
 
             return "DynamicAndVar.outtext" + ", o:" + o + ", d:" + d + ", v:" + v;
